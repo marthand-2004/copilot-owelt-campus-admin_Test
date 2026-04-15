@@ -1,0 +1,43 @@
+SUMMARY:
+total rows parsed: 36
+passed: 24, failed: 12, total: 36
+
+passed test rows:
+PASS | chromium | 🏗️ Curriculum Management › ✅ Add New Lesson to Module
+PASS | chromium | 🔥 Smoke Test - Complete Workflow › ✅ Full User Journey: Login → Create Course → Add Module → Add Lessons
+PASS | firefox | 🔐 Authentication › ✅ Admin Login - Successful Login and Dashboard Navigation
+PASS | firefox | 📚 Course Management › ✅ Navigate to Courses Page
+PASS | firefox | 📚 Course Management › ✅ Create New Course with All Fields
+PASS | firefox | 📚 Course Management › ✅ Verify Course Creation - Course Visible in Listing
+PASS | firefox | 📚 Course Management › ✅ Edit Course - Open Course for Editing
+PASS | firefox | 🏗️ Curriculum Management › ✅ Add New Module
+PASS | firefox | 🏗️ Curriculum Management › ✅ Add New Lesson to Module
+PASS | firefox | 🔥 Smoke Test - Complete Workflow › ✅ Full User Journey: Login → Create Course → Add Module → Add Lessons
+PASS | webkit | 📚 Course Management › ✅ Create New Course with All Fields
+PASS | webkit | 🏗️ Curriculum Management › ✅ Add New Lesson to Module
+PASS | webkit | 🔥 Smoke Test - Complete Workflow › ✅ Full User Journey: Login → Create Course → Add Module → Add Lessons
+PASS | chromium | 🔐 Authentication › ✅ Admin Login - Successful Login and Dashboard Navigation
+PASS | chromium | 📚 Course Management › ✅ Navigate to Courses Page
+PASS | chromium | 📚 Course Management › ✅ Create New Course with All Fields
+PASS | chromium | 📚 Course Management › ✅ Verify Course Creation - Course Visible in Listing
+PASS | chromium | 📚 Course Management › ✅ Edit Course - Open Course for Editing
+PASS | chromium | 🏗️ Curriculum Management › ✅ Add New Module
+PASS | webkit | 🔐 Authentication › ✅ Admin Login - Successful Login and Dashboard Navigation
+PASS | webkit | 📚 Course Management › ✅ Navigate to Courses Page
+PASS | webkit | 📚 Course Management › ✅ Verify Course Creation - Course Visible in Listing
+PASS | webkit | 📚 Course Management › ✅ Edit Course - Open Course for Editing
+PASS | webkit | 🏗️ Curriculum Management › ✅ Add New Module
+
+failed test rows:
+FAIL | chromium | 🎓 Lesson Type Testing › 🔹 A. Video Lesson - Upload and Verify Video URL
+FAIL | chromium | 🎓 Lesson Type Testing › 🔹 B. Reading Lesson - Enter Text Content and Verify Persistence
+FAIL | chromium | 🎓 Lesson Type Testing › 🔹 C. Quiz Lesson - Add Questions and Mark Correct Answer
+FAIL | chromium | 🎓 Lesson Type Testing › 🔹 D. Coding Lab Lesson - Enter Starter Code and Save
+FAIL | firefox | 🎓 Lesson Type Testing › 🔹 A. Video Lesson - Upload and Verify Video URL
+FAIL | firefox | 🎓 Lesson Type Testing › 🔹 B. Reading Lesson - Enter Text Content and Verify Persistence
+FAIL | firefox | 🎓 Lesson Type Testing › 🔹 C. Quiz Lesson - Add Questions and Mark Correct Answer
+FAIL | firefox | 🎓 Lesson Type Testing › 🔹 D. Coding Lab Lesson - Enter Starter Code and Save
+FAIL | webkit | 🎓 Lesson Type Testing › 🔹 A. Video Lesson - Upload and Verify Video URL
+FAIL | webkit | 🎓 Lesson Type Testing › 🔹 B. Reading Lesson - Enter Text Content and Verify Persistence
+FAIL | webkit | 🎓 Lesson Type Testing › 🔹 C. Quiz Lesson - Add Questions and Mark Correct Answer
+FAIL | webkit | 🎓 Lesson Type Testing › 🔹 D. Coding Lab Lesson - Enter Starter Code and Save
