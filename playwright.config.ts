@@ -15,8 +15,16 @@ export default defineConfig({
     navigationTimeout: 20000,
   },
   projects: [
+    // ── Admin tests ──────────────────────────────────────────────────────
     {
       name: 'chromium',
+      testMatch: ['**/admin/**/*.spec.ts', '**/example.spec.ts'],
+      use: { ...devices['Desktop Chrome'] },
+    },
+    // ── User tests (fresh context per test, login in beforeEach) ─────────
+    {
+      name: 'user',
+      testMatch: '**/user/**/*.spec.ts',
       use: { ...devices['Desktop Chrome'] },
     },
   ],
